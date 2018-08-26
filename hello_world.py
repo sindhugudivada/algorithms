@@ -1,2 +1,2 @@
 #! /usr/bin/python
-print 'Hello world -Get coding started'
+print 'Hello world - getting started with coding'
