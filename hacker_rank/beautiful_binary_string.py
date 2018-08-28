@@ -11,6 +11,7 @@ import sys
 # Complete the beautifulBinaryString function below.
 def beautifulBinaryString(b):
     count=0
+    #string is immutable. So convert it into a list of characters.
     c = list(b)
     for i in range(2,len(b)):
         if c[i-2]=='0' and c[i-1] =='1' and c[i] == '0':
